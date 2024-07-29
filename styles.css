@@ -1,0 +1,122 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Nunito";
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.ftitle {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Bebas Neue";
+  margin-left: 20px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.main-section {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.main-section header {
+  margin-bottom: 10px;
+}
+
+article {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    float: none;
+  }
+
+  li a {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .main-section {
+    margin: 10px 5px;
+    padding: 15px;
+  }
+
+  .main-section header {
+    font-size: 1.5em;
+  }
+
+  article {
+    font-size: 1.1em;
+  }
+
+  .ftitle {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .bold {
+    font-size: 20px;
+  }
+}
+.code-list{
+  color: rgb(165, 95, 4);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#form-title{
+  font-family: "Titillium Web";
+}
+p {
+  font-family: "PT Sans";
+}
